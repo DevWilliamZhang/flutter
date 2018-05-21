@@ -33,7 +33,7 @@ Packages can contain several kinds of content:
   Java or Kotlin), and/or for iOS (using ObjC or Swift). A concrete example is
   the [`battery`](https://pub.dartlang.org/packages/battery) plugin package.
 
-## Developing Dart packages {#dart}
+## Developing Dart packages 
 
 ### Step 1: Create the package
 
