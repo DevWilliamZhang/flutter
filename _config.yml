@@ -1,10 +1,18 @@
 # Site settings
 title: Flutter
+<<<<<<< HEAD
 email: flutter-dev@googlegroups.com
 email_name: flutter-dev@
 baseurl: "/_site" # the subpath of your site, e.g. /blog/
 url: "https://flutter.io"
 github_username: flutter
+=======
+email: 596837288@qq.com
+email_name: 596837288@
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://williamzz2015.github.io/"
+github_username: DevWilliamZhangflutter
+>>>>>>> cb004b7cc7bc2577e6f4350cb1914d5369063c92
 
 # Build settings
 markdown: kramdown
@@ -14,3 +22,12 @@ kramdown:
   hard_wrap: false
 
 exclude: [example, packages, tool]
+
+theme: jekyll-theme-slate
+
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
