@@ -64,7 +64,7 @@ library
 package](https://www.dartlang.org/guides/libraries/create-library-packages)
 documentation.
 
-## Developing plugin packages {#plugin}
+## Developing plugin packages 
 
 If you want to develop a package that calls into platform-specific APIs, you
 need to develop a plugin package. A plugin package is a specialized version of a
@@ -105,7 +105,7 @@ iOS language using `-i` and/or the Android language using `-a`. For example:
 flutter create --template=plugin -i swift -a kotlin hello
 {% endcommandline %}
 
-### Step 2: Implement the package {#edit-plugin-package}
+### Step 2: Implement the package 
 
 As a plugin package contains code for several platforms written in several
 programming languages, some specific steps are needed to ensure a smooth
@@ -198,7 +198,7 @@ If you wish to generate API documentation locally on your developement machine, 
 
 For tips on how to write API documentation, see [Effective Dart: Documentation](https://www.dartlang.org/guides/language/effective-dart/documentation).
 
-## Publishing packages {#publish}
+## Publishing packages 
 
 Once you have implemented a package, you can publish it on
 [Pub](https://pub.dartlang.org/), so that other developers can easily use it.
@@ -219,7 +219,7 @@ flutter packages pub publish
 
 For details on publishing, see the [Pub publishing docs](https://www.dartlang.org/tools/pub/publishing).
 
-## Handling package interdependencies {#dependencies}
+## Handling package interdependencies
 
 If you are developing a package `hello` that depends on the Dart API exposed by another package,
 you need to add that package to the `dependencies` section of your `pubspec.yaml` file.
