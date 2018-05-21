@@ -15,4 +15,4 @@ kramdown:
 
 exclude: [example, packages, tool]
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
